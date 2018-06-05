@@ -26,11 +26,9 @@ namespace WorkingWithVisualStudio
                 app.UseDeveloperExceptionPage();
             }
 
-            //app.Run(async (context) =>
-            //{
-            //    await context.Response.WriteAsync("Hello World!");
-            //});
-
+            app.UseDeveloperExceptionPage();
+            app.UseBrowserLink();
+            app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
         }
     }
