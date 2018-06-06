@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartyInvites", "PartyInvites\PartyInvites.csproj", "{F2E00F6B-7C41-46BC-A7C3-4FA6609DFAE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 PartyInvites", "PartyInvites\1 PartyInvites.csproj", "{F2E00F6B-7C41-46BC-A7C3-4FA6609DFAE0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LanguageFeatures", "LanguageFeatures\LanguageFeatures.csproj", "{4417B186-AEFF-4349-A73E-19D3BE6A1728}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2 LanguageFeatures", "LanguageFeatures\2 LanguageFeatures.csproj", "{4417B186-AEFF-4349-A73E-19D3BE6A1728}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razor", "Razor\Razor.csproj", "{80AB1461-CB93-4050-A8F5-1684767452C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3 Razor", "Razor\3 Razor.csproj", "{80AB1461-CB93-4050-A8F5-1684767452C7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithVisualStudio", "WorkingWithVisualStudio\WorkingWithVisualStudio.csproj", "{2B71348E-82C6-4AEA-AD14-BCE417982ECE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4 WorkingWithVisualStudio", "WorkingWithVisualStudio\4 WorkingWithVisualStudio.csproj", "{2B71348E-82C6-4AEA-AD14-BCE417982ECE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithVisualStudio.Tests", "WorkingWithVisualStudio.Tests\WorkingWithVisualStudio.Tests.csproj", "{316B7091-45A9-4A0E-9041-A4A2D095AF61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5 WorkingWithVisualStudio.Tests", "WorkingWithVisualStudio.Tests\5 WorkingWithVisualStudio.Tests.csproj", "{316B7091-45A9-4A0E-9041-A4A2D095AF61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6 SportsStore", "SportsStore\6 SportsStore.csproj", "{0AA95787-EBC3-465E-BE7B-CE92134EEB8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 SportsStore.Tests", "SportsStore.Tests\7 SportsStore.Tests.csproj", "{8213F2D1-E9E5-42A0-8461-23968DA2727B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{316B7091-45A9-4A0E-9041-A4A2D095AF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{316B7091-45A9-4A0E-9041-A4A2D095AF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{316B7091-45A9-4A0E-9041-A4A2D095AF61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA95787-EBC3-465E-BE7B-CE92134EEB8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA95787-EBC3-465E-BE7B-CE92134EEB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA95787-EBC3-465E-BE7B-CE92134EEB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA95787-EBC3-465E-BE7B-CE92134EEB8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8213F2D1-E9E5-42A0-8461-23968DA2727B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8213F2D1-E9E5-42A0-8461-23968DA2727B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8213F2D1-E9E5-42A0-8461-23968DA2727B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8213F2D1-E9E5-42A0-8461-23968DA2727B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
