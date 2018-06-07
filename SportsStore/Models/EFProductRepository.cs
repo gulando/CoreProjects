@@ -1,12 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace SportsStore.Models {
+namespace SportsStore.Models
+{
 
-    public class EFProductRepository : IProductRepository {
+    public class EFProductRepository : IProductRepository
+    {
         private ApplicationDbContext context;
 
-        public EFProductRepository(ApplicationDbContext ctx) {
+        public EFProductRepository(ApplicationDbContext ctx)
+        {
             context = ctx;
         }
 

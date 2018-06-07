@@ -10,16 +10,19 @@ using SportsStore.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 
-namespace SportsStore {
+namespace SportsStore
+{
 
-    public class Startup {
+    public class Startup
+    {
 
         public Startup(IConfiguration configuration) =>
             Configuration = configuration;
 
         public IConfiguration Configuration { get; }
 
-        public void ConfigureServices(IServiceCollection services) {
+        public void ConfigureServices(IServiceCollection services)
+        {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration["Data:SportStoreProducts:ConnectionString"]));
@@ -27,11 +30,13 @@ namespace SportsStore {
             services.AddMvc();
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env) {
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        {
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
-            app.UseMvc(routes => {
+            app.UseMvc(routes =>
+            {
                 routes.MapRoute(
                     name: "pagination",
                     template: "Products/Page{productPage}",

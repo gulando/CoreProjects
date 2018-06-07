@@ -2,9 +2,11 @@
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace SportsStore.Models {
+namespace SportsStore.Models
+{
 
-    public class ApplicationDbContext : DbContext {
+    public class ApplicationDbContext : DbContext
+    {
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options) { }
@@ -13,7 +15,8 @@ namespace SportsStore.Models {
     }
 
     public class ApplicationDbContextFactory
-            : IDesignTimeDbContextFactory<ApplicationDbContext> {
+            : IDesignTimeDbContextFactory<ApplicationDbContext>
+    {
 
         public ApplicationDbContext CreateDbContext(string[] args) =>
             Program.BuildWebHost(args).Services

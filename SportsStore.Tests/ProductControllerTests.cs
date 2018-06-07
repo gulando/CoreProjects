@@ -6,15 +6,19 @@ using SportsStore.Models;
 using Xunit;
 using SportsStore.Models.ViewModels;
 
-namespace SportsStore.Tests {
+namespace SportsStore.Tests
+{
 
-    public class ProductControllerTests {
+    public class ProductControllerTests
+    {
 
         [Fact]
-        public void Can_Paginate() {
+        public void Can_Paginate()
+        {
             // Arrange
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
-            mock.Setup(m => m.Products).Returns((new Product[] {
+            mock.Setup(m => m.Products).Returns((new Product[] 
+            {
                 new Product {ProductID = 1, Name = "P1"},
                 new Product {ProductID = 2, Name = "P2"},
                 new Product {ProductID = 3, Name = "P3"},
@@ -38,7 +42,8 @@ namespace SportsStore.Tests {
 
 
         [Fact]
-        public void Can_Send_Pagination_View_Model() {
+        public void Can_Send_Pagination_View_Model()
+        {
 
             // Arrange
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
