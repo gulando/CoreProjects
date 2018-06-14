@@ -17,9 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsStore", "SportsStore\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsStore.Tests", "SportsStore.Tests\SportsStore.Tests.csproj", "{8EA84416-CD7E-4E2B-AF04-9A6E227BAF37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6 ConfiguringApps", "6 ConfiguringApps\6 ConfiguringApps.csproj", "{1F34B1E9-E0B6-4E25-9E87-CDAD9CE7C550}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6 ConfiguringApps", "6 ConfiguringApps\6 ConfiguringApps.csproj", "{1F34B1E9-E0B6-4E25-9E87-CDAD9CE7C550}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 UrlsAndRoutes", "UrlsAndRoutes\7 UrlsAndRoutes.csproj", "{BF00409A-00DA-4C0E-9AFE-E725BFAE5FAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7 UrlsAndRoutes", "UrlsAndRoutes\7 UrlsAndRoutes.csproj", "{BF00409A-00DA-4C0E-9AFE-E725BFAE5FAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8 ControllersAndActions", "8 ControllersAndActions\8 ControllersAndActions.csproj", "{57FC2F34-E4EF-405D-8430-6CF289B116E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9 ControllersAndActions.Tests", "ControllersAndActions.Tests\9 ControllersAndActions.Tests.csproj", "{3AC23B90-E5D0-4A12-9803-89840C75C303}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{BF00409A-00DA-4C0E-9AFE-E725BFAE5FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF00409A-00DA-4C0E-9AFE-E725BFAE5FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF00409A-00DA-4C0E-9AFE-E725BFAE5FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FC2F34-E4EF-405D-8430-6CF289B116E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FC2F34-E4EF-405D-8430-6CF289B116E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FC2F34-E4EF-405D-8430-6CF289B116E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FC2F34-E4EF-405D-8430-6CF289B116E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC23B90-E5D0-4A12-9803-89840C75C303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC23B90-E5D0-4A12-9803-89840C75C303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC23B90-E5D0-4A12-9803-89840C75C303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC23B90-E5D0-4A12-9803-89840C75C303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
