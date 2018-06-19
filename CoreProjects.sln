@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "91 ApiControllers", "ApiCon
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "95 Views", "Views\95 Views.csproj", "{C0E611AF-12A6-4093-8336-D64FFA9475FF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingViewComponents", "UsingViewComponents.\UsingViewComponents.csproj", "{B867C67D-4CA7-4ABD-8084-C4E323D8EFD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{C0E611AF-12A6-4093-8336-D64FFA9475FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0E611AF-12A6-4093-8336-D64FFA9475FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0E611AF-12A6-4093-8336-D64FFA9475FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B867C67D-4CA7-4ABD-8084-C4E323D8EFD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B867C67D-4CA7-4ABD-8084-C4E323D8EFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B867C67D-4CA7-4ABD-8084-C4E323D8EFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B867C67D-4CA7-4ABD-8084-C4E323D8EFD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
