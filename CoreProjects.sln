@@ -45,7 +45,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects 2", "Projects 2", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cities", "Cities\Cities.csproj", "{2779EB42-7DDF-40A6-BB6F-8ECE35F6E1FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcModels", "MvcModels\MvcModels.csproj", "{DA570A92-3A1A-43C7-93BD-DB2429A47C1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcModels", "MvcModels\MvcModels.csproj", "{DA570A92-3A1A-43C7-93BD-DB2429A47C1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelValidation", "ModelValidation\ModelValidation.csproj", "{9FFEF082-ED98-4EAD-B332-50FB385703D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{DA570A92-3A1A-43C7-93BD-DB2429A47C1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA570A92-3A1A-43C7-93BD-DB2429A47C1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA570A92-3A1A-43C7-93BD-DB2429A47C1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FFEF082-ED98-4EAD-B332-50FB385703D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FFEF082-ED98-4EAD-B332-50FB385703D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FFEF082-ED98-4EAD-B332-50FB385703D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FFEF082-ED98-4EAD-B332-50FB385703D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +159,7 @@ Global
 		{B867C67D-4CA7-4ABD-8084-C4E323D8EFD1} = {A5798D6E-06BA-47F3-845F-352C194DBA5E}
 		{2779EB42-7DDF-40A6-BB6F-8ECE35F6E1FD} = {35AA0E33-AD74-4315-ACD9-3353962926C3}
 		{DA570A92-3A1A-43C7-93BD-DB2429A47C1B} = {35AA0E33-AD74-4315-ACD9-3353962926C3}
+		{9FFEF082-ED98-4EAD-B332-50FB385703D4} = {35AA0E33-AD74-4315-ACD9-3353962926C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {647110B7-4F9D-426A-ACEA-203C44D29CDA}
