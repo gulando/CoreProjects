@@ -49,6 +49,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9 MvcModels", "MvcModels\9 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8 ModelValidation", "ModelValidation\8 ModelValidation.csproj", "{9FFEF082-ED98-4EAD-B332-50FB385703D4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{0FD64158-0BC9-4B1E-AAF1-374DD4D452A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Users", "Users\Users\Users.csproj", "{EA93757E-CE92-44C2-98B2-C20016FA0A7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,10 @@ Global
 		{9FFEF082-ED98-4EAD-B332-50FB385703D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FFEF082-ED98-4EAD-B332-50FB385703D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FFEF082-ED98-4EAD-B332-50FB385703D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA93757E-CE92-44C2-98B2-C20016FA0A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA93757E-CE92-44C2-98B2-C20016FA0A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA93757E-CE92-44C2-98B2-C20016FA0A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA93757E-CE92-44C2-98B2-C20016FA0A7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +168,7 @@ Global
 		{2779EB42-7DDF-40A6-BB6F-8ECE35F6E1FD} = {35AA0E33-AD74-4315-ACD9-3353962926C3}
 		{DA570A92-3A1A-43C7-93BD-DB2429A47C1B} = {35AA0E33-AD74-4315-ACD9-3353962926C3}
 		{9FFEF082-ED98-4EAD-B332-50FB385703D4} = {35AA0E33-AD74-4315-ACD9-3353962926C3}
+		{EA93757E-CE92-44C2-98B2-C20016FA0A7E} = {0FD64158-0BC9-4B1E-AAF1-374DD4D452A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {647110B7-4F9D-426A-ACEA-203C44D29CDA}
